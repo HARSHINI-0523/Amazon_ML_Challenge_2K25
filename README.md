@@ -60,15 +60,27 @@ The final, tuned ensemble models were trained on 100% of the training data. The 
 The project was organized with the following structure for clarity and reproducibility:
 
 ML_Challenge_2025/
+
 ├── dataset/
+
 │     ├── train.csv
+
 │     ├── test.csv
+
 │     └── temp_image_batch/  (temporary folder used during processing)
+
 ├── src/
+
 │     └── utils.py
+
 ├── notebooks/
+
 │     └── SMART PRODUCT PRICING CHALLENGE.ipynb
+
 └── outputs/
+
 ├── image_features/       (contains 75k .npy files for train set)
+
 ├── test_image_features/  (contains 75k .npy files for test set)
-└── submission.csv        (the final prediction file) 
+
+└── submission.csv        (the final prediction file)
