@@ -53,34 +53,22 @@ Our solution followed a structured 7-stage workflow:
 
 #### 4️⃣ **Final Submission (Stage 7)**
 
-ML_Challenge_2025/
-
-├── dataset/
-
-│     ├── train.csv
-
-│     ├── test.csv
-
-│     └── temp_image_batch/  (temporary folder used during processing)
-
-├── src/
-
-│     └── utils.py
-
-├── notebooks/
-
-│     └── SMART PRODUCT PRICING CHALLENGE.ipynb
-
-└── outputs/
-
-├── image_features/       (contains 75k .npy files for train set)
-
-├── test_image_features/  (contains 75k .npy files for test set)
-
-└── submission.csv        (the final prediction file)
-
 The final, tuned ensemble models were trained on 100% of the training data. The same robust batch-processing pipeline was then used to generate features for the 75,000 test set images. Finally, predictions were made on the test set, and the `submission.csv` file was generated.
 
 ### 📁 Folder Structure
 
 The project was organized with the following structure for clarity and reproducibility:
+
+ML_Challenge_2025/
+├── dataset/
+│     ├── train.csv
+│     ├── test.csv
+│     └── temp_image_batch/  (temporary folder used during processing)
+├── src/
+│     └── utils.py
+├── notebooks/
+│     └── SMART PRODUCT PRICING CHALLENGE.ipynb
+└── outputs/
+├── image_features/       (contains 75k .npy files for train set)
+├── test_image_features/  (contains 75k .npy files for test set)
+└── submission.csv        (the final prediction file) 
