@@ -1,6 +1,6 @@
 # Smart Product Pricing Challenge 2025
 
-This repository contains a complete machine learning solution for the **Smart Product Pricing Challenge**. The goal is to predict product prices using a multimodal approach that combines textual descriptions and product images.
+This repository contains a complete machine learning solution for the **Smart Product Pricing Challenge**. The goal is to predict product prices using a multimodal approach that combines textual descriptions and product images.Further improvements and model optimization are still in progress.
 
 ## 🎯 The Challenge (What They Asked)
 
